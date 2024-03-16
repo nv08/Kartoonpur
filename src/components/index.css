@@ -24,8 +24,9 @@ img.coming {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  align-items: center;
+  align-items: stretch;
   padding: 1.5rem;
+  gap: 1.5rem;
 }
 
 .card {
@@ -33,7 +34,6 @@ img.coming {
   border: 1px solid #ccc;
   border-radius: 10px;
   overflow: hidden;
-  margin: 10px;
 }
 
 .card-image {
@@ -43,7 +43,7 @@ img.coming {
 }
 
 .card-content {
-  padding: 15px;
+  padding: 1rem;
 }
 
 .card-title {
