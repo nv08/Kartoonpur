@@ -1,3 +1,9 @@
+img.coming {
+  width: 100%;
+  max-width: 720px;
+  object-fit: contain;
+}
+
 /* ############ HOME.JSX ############# */
 
 .container {
@@ -8,11 +14,6 @@
 }
 img.bgr {
   width: 100%;
-  object-fit: contain;
-}
-img.coming {
-  width: 100%;
-  max-width: 720px;
   object-fit: contain;
 }
 
