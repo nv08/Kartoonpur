@@ -1,0 +1,16 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  img.bgr {
+    width: 100%;
+    object-fit: contain;
+  }
+  img.coming {
+    width: 100%;
+    max-width: 720px;
+    object-fit: contain;
+  }
+  
