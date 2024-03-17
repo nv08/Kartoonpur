@@ -1,6 +1,6 @@
 /* eslint-disable react/prop-types */
 import "./index.css";
-import { CHARACTERS } from "./charactersData";
+import { CHARACTERS } from "../data/constants";
 
 const Card = ({ image, title, description }) => {
   return (

@@ -1,5 +1,5 @@
 import "./index.css";
-import { VIDEOS_URLS } from "./videosData";
+import { VIDEOS_URLS } from "../data/constants";
 
 const Videos = () => {
   return (
