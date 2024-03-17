@@ -4,26 +4,31 @@ import { SocialIcon } from "react-social-icons";
 
 const CONTACT_DETAILS = [
   {
-    title: "Junglepur Facebook Page",
+    title: "KaarToon-G",
     link: "https://www.facebook.com/profile.php?id=61554700345276&mibextid=kFxxJD",
     icon: (
-      <SocialIcon url="https://www.facebook.com/profile.php?id=61554700345276&mibextid=kFxxJD" />
+      <SocialIcon
+        url="https://www.facebook.com/profile.php?id=61554700345276&mibextid=kFxxJD"
+        target="_blank"
+      />
     ),
   },
   {
-    title: "Junglepur Youtube Channel",
+    title: "KaarToon-G",
     link: "https://www.youtube.com/@KaarToon-G",
-    icon: <SocialIcon url="https://www.youtube.com/@KaarToon-G" />,
+    icon: (
+      <SocialIcon url="https://www.youtube.com/@KaarToon-G" target="_blank" />
+    ),
   },
   {
-    title: "Junglepur Contact Email 1",
+    title: "kaartoon.g@gmail.com",
     link: "mailto: kaartoon.g@gmail.com",
-    icon: <SocialIcon url="mailto:kaartoon.g@gmail.com" />,
+    icon: <SocialIcon url="mailto:kaartoon.g@gmail.com" target="_blank" />,
   },
   {
-    title: "Junglepur Contact Email 2",
+    title: "junglepur.pr@gmail.com",
     link: "mailto: junglepur.pr@gmail.com",
-    icon: <SocialIcon url="mailto:junglepur.pr@gmail.com" />,
+    icon: <SocialIcon url="mailto:junglepur.pr@gmail.com" target="_blank" />,
   },
 ];
 

@@ -23,9 +23,15 @@ img.bgr {
   margin: 1rem;
 }
 
+@media (width <= 768px) {
+  .text-wrapper {
+    flex-direction: column;
+  }
+}
+
 .text-container {
   flex: 1;
-  border-radius: 3% 97% 4% 96% / 95% 3% 97% 5%;
+  border-radius: 5% 95% 5% 95% / 95% 5% 95% 5%;
   padding: 3rem;
   color: white;
   font-size: x-large;
@@ -93,16 +99,16 @@ img.bgr {
 
 .link-wrapper {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
-  gap: 3rem;
+  flex-wrap: wrap;
   padding: 2rem 0;
+  gap: 3rem 2rem;
 }
 
 .icon-wrapper {
   display: flex;
-  gap: 2rem;
+  gap: 1rem;
   align-items: center;
   font-size: x-large;
   color: white;
