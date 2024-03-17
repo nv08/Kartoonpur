@@ -17,6 +17,23 @@ img.bgr {
   object-fit: contain;
 }
 
+.text-wrapper {
+  display: flex;
+  gap: 3rem;
+  margin: 1rem;
+}
+
+.text-container {
+  flex: 1;
+  border-radius: 3% 97% 4% 96% / 95% 3% 97% 5%;
+  padding: 3rem;
+  color: white;
+  font-size: x-large;
+  line-height: 2.5rem;
+  background-color: rgba(0, 0, 0, 0.7);
+  box-shadow: inset 0 0 10px 10px rgba(188, 219, 36, 0.5);
+}
+
 /* ############ HOME ############# */
 
 /* ############ CHARACTERS.JSX ############# */
@@ -71,3 +88,27 @@ img.bgr {
 }
 
 /* ############ VIDEOS ############# */
+
+/* ############ CONTACT.JSX ############# */
+
+.link-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  padding: 2rem 0;
+}
+
+.icon-wrapper {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  font-size: x-large;
+  color: white;
+  cursor: pointer;
+  text-decoration: none;
+  justify-content: space-between;
+}
+
+/* ############ CONTACT ############# */
