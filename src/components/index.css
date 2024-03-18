@@ -32,12 +32,21 @@ img.bgr {
 .text-container {
   flex: 1;
   border-radius: 5% 95% 5% 95% / 95% 5% 95% 5%;
-  padding: 3rem;
+  padding: 2rem 3rem;
   color: white;
   font-size: x-large;
   line-height: 2.5rem;
   background-color: rgba(0, 0, 0, 0.7);
   box-shadow: inset 0 0 10px 10px rgba(188, 219, 36, 0.5);
+  text-align: center;
+}
+
+@media (width <=768px) {
+  .text-container {
+    box-shadow: none;
+    border-radius: 20px;
+    padding: 1rem 1.5rem;
+  }
 }
 
 /* ############ HOME ############# */
