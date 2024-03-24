@@ -22,6 +22,9 @@ import buffalo from "../assets/characters/buffalo.png";
 import cow from "../assets/characters/cow.png";
 import lion_big from "../assets/characters/lion_big.png";
 import bee from "../assets/characters/bee.png";
+import cat from "../assets/characters/cat.png";
+import birds from "../assets/characters/birds.png";
+import river from "../assets/characters/river.png";
 
 export const VIDEOS_URLS = [
   "https://www.youtube.com/embed/2xq94NuXSP8?si=kbNqkUtZBOlOwdtb",
@@ -47,7 +50,7 @@ export const CHARACTERS = [
     description: "हम हैं डाक्टर हाथी, हम देते हैं सबको दवा मीठी",
   },
   {
-    image: "/assets/characters/owl.png",
+    image: river,
     title: "Arpa- The Orator River",
     description: "The Orator",
   },
@@ -73,7 +76,7 @@ export const CHARACTERS = [
     description: "मैं हूँ डड्डू, मैं दिन भर बस यहाँ से वहाँ फुद्कूँ",
   },
   {
-    image: "url",
+    image: cat,
     title: "Cat- Mau",
     description:
       "मैं हूँ माऊ बिल्ली,मेरे आते ही मच जाती है खलबली,क्योंकि मैं हूँ सबको बहुत पकाती",
@@ -130,7 +133,7 @@ export const CHARACTERS = [
       "मेरा नाम है टगबग, मेरे पैरों में लगी नाल से आवाज़ आती है खट पट",
   },
   {
-    image: "url",
+    image: birds,
     title: "The Birds- Tinni & Tooni",
     description: "हम हैं टिन्नी और टूनि, हम हैं जंगलपुर की फैशन queens",
   },
